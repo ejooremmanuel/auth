@@ -231,7 +231,7 @@ signUpButtonMain.addEventListener("click", async function (e) {
       password: signUpPasswordValue,
     });
     console.log(data);
-    location.href = "/src/signin-and-signup.html";
+    location.href = "/src/signin-and-signup.html?signin";
     if (data.ok) {
       // loadingCompleted();
 
