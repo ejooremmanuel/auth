@@ -32,7 +32,7 @@ console.log(formContainer);
 
 // baseURL for backend
 // const baseURL = "https://genius-park-stag.herokuapp.com";
-const baseURL = "http://localhost:4000";
+const baseURL = "https://backendsparkle.herokuapp.com";
 
 const signUpButton = document.getElementById("signUp");
 signUpButton.addEventListener("click", () => {
