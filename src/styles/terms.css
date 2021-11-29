@@ -1,0 +1,56 @@
+.title-terms {
+  font-size: 2.5rem;
+}
+
+.date-updated-terms {
+  margin-top: 1rem;
+  color: #4b5563;
+}
+
+.date-updated-terms span {
+  font-size: 0.9rem;
+}
+
+.date-updated-terms svg {
+  margin-right: 0.5rem;
+}
+
+.terms-desc {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #000;
+}
+
+.terms-desc p {
+  color: #000;
+  line-height: 1.8;
+}
+
+.terms-desc h3 {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.terms-desc ul {
+  list-style: disc;
+  padding-left: 2.5em;
+}
+
+.terms-desc li {
+  line-height: 1.8;
+  margin: 1.5rem 0;
+}
+
+.terms-desc span {
+  color: var(--clr-invalid);
+  font-weight: 600;
+}
+
+.content-container {
+  padding: 8rem 0;
+  width: 80%;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding-right: 0;
+  padding-left: 0;
+}

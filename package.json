@@ -1,0 +1,31 @@
+{
+  "name": "geniusparkle-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faustabmnyh/GS-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faustabmnyh/GS-landing-page/issues"
+  },
+  "homepage": "https://github.com/faustabmnyh/GS-landing-page#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.0.0",
+    "cssnano": "^5.0.8",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.0.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.1.0"
+  }
+}

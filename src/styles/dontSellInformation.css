@@ -1,0 +1,111 @@
+
+/* do not sell information */
+.dns-information {
+    margin-top: 4.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  
+  /* .dns-information img {
+    width: 100%;
+    max-width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+  } */
+  
+  .dns-information > div:first-child {
+    margin-top: 2rem;
+    /* margin-right: 2rem; */
+  }
+  
+  .dns-information-form {
+    display: flex;
+    /* border: 0.1rem solid #eaeaea; */
+    background: var(--clr-gray500);
+    padding: 0.25em;
+    width: 100%;
+    height: 3.5rem;
+    /* max-width: 25rem; */
+    overflow: hidden;
+    border-radius: 30em;
+    gap: 0.25rem;
+  }
+  
+  .dns-information-form > *:nth-child(1) {
+    flex: 1 1 60%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 1em;
+  }
+  
+  .dns-information-form > *:nth-child(2) {
+    flex: 1 1 40%;
+    max-width: 15rem;
+    width: max-content;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    height: 100%;
+    /* font-size: 0.8rem; */
+    padding: 0.75em 0.1em;
+  }
+  
+  .dns-information p {
+    margin: 2rem 0;
+    font-size: 0.9rem;
+    /* max-width: 25rem; */
+  }
+  
+  .dns-information-background {
+    width: 100%;
+    /* max-width: 30rem;
+    height: 30rem; */
+    /* max-width: 18rem; */
+    height: 15rem;
+    border-radius: 1em;
+    background-position: center;
+    /* background-position-y: -18rem; */
+    background-position-y: -30rem;
+    background-repeat: no-repeat;
+    background-size: 40rem;
+    background-image: url(https://source.unsplash.com/ZnLprInKM7s);
+  }
+  
+  @media (min-width: 768px) {
+    .dns-information-background {
+      background-position-y: -35rem;
+      height: 20rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .dns-information {
+      flex-direction: row;
+    }
+  
+    .dns-information-background {
+      max-width: 30rem;
+      height: 30rem;
+      /* max-width: 18rem; */
+      background-position-y: -25rem;
+    }
+  
+    .dns-information p {
+      font-size: 1rem;
+    }
+  
+    .dns-information-form {
+      max-width: 30rem;
+    }
+  
+    .dns-information-form > *:nth-child(2) {
+      font-size: 0.9rem;
+    }
+  
+    .dns-information > div:first-child {
+      margin-top: 0;
+      margin-right: 4rem;
+    }
+  }
+  

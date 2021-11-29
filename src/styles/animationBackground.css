@@ -1,0 +1,59 @@
+[data-bg-anim] {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-position: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-color: initial;
+    background-size: 400% 400%;
+    animation: 10s ease 0s infinite normal none running bg-anim;
+  }
+  [data-bg-anim="primary"] {
+    background-image: linear-gradient(
+      -45deg,
+      rgb(25, 158, 255),
+      rgb(50, 43, 227)
+    );
+  }
+  @-webkit-keyframes bg-anim {
+    0% {
+      background-position: 100% 100%;
+    }
+    20% {
+      background-position: 100% 50%;
+    }
+    40% {
+      background-position: 100% 0%;
+    }
+    40% {
+      background-position: 50% 0%;
+    }
+    80% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+  @keyframes bg-anim {
+    0% {
+      background-position: 100% 100%;
+    }
+    20% {
+      background-position: 100% 50%;
+    }
+    40% {
+      background-position: 100% 0%;
+    }
+    40% {
+      background-position: 50% 0%;
+    }
+    80% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+  

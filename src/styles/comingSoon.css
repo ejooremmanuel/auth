@@ -1,0 +1,89 @@
+.coming-soon,
+.main-error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.coming-soon {
+  padding-top: 3em;
+  margin-top: 0;
+}
+
+.main-error img {
+  width: 100%;
+  max-width: 28rem;
+}
+
+.coming-soon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30rem;
+}
+
+.coming-soon-form {
+  width: 100%;
+  max-width: 45rem;
+}
+
+.coming-soon-form span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.coming-soon-container h1 {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.coming-soon-container p {
+  font-size: 1.2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.coming-soon-container p {
+  margin: 2rem 0 1rem 0;
+}
+
+.coming-soon-form form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: var(--clr-light);
+  padding: 1em 0.75em;
+  border-radius: 0.45em;
+  border: 0.1rem solid #cccedd;
+}
+
+.main-error-container span {
+  display: block;
+  font-size: 1.2rem;
+  margin-top: -1.5rem;
+  font-weight: 900;
+}
+
+.small-logo {
+  margin-bottom: -1rem;
+  filter: drop-shadow(0 0.2rem 0.4rem #0002);
+}
+
+.coming-soon-form input {
+  width: 100%;
+  flex: 2;
+  font-size: 0.9rem;
+  border: none;
+  margin: 0 0.75rem;
+  background: transparent;
+}
+
+.coming-soon-form button {
+  font-size: 0.9rem;
+  width: fit-content;
+  margin: -0.25rem 0;
+  border-radius: 0.45em;
+}
